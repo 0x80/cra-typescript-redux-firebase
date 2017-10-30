@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["es6", "dom"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "outDir": "build/dist",
+    "paths": {
+      "*": ["*", "src/*"]
+    },
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "skipLibCheck": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5"
+  },
+  "exclude": [
+    // "node_modules/react-redux-firebase",
+    // "node_modules/react-redux-firebase/index.d.ts",
+    "acceptance-tests",
+    "build",
+    "config-overrides.js",
+    "jest",
+    "scripts",
+    "src/setupTests.ts",
+    "webpack"
+  ],
+  "include": [
+    "./src/**/*"
+    // "node_modules/firebase/index.d.ts"
+    // "node_modules/react-redux-firebase/index.d.ts"
+  ]
+}
