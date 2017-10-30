@@ -1,6 +1,8 @@
 CRA Typescript Redux Firebase
 =============================
 
+__!! THIS IS NOT FIT FOR PUBLIC CONSUMPTION JUST YET__ There are still some issues that need to be sorted out, and cleaned up.
+
 This project was bootstrapped with [Create React App Typescript](https://github.com/wmonk/create-react-app-typescript), which uses [Create React App / CRA](https://github.com/facebookincubator/create-react-app) as its base. For documentation on the boilerplate refer to the official CRA docs.
 
 Features
